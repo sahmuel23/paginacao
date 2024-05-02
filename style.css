@@ -1,0 +1,82 @@
+/* Css para parâmetros do Body */
+
+body {
+    background-color: #E9C2A6;
+    text-align: center;
+    margin: 80px 200px;
+}
+
+/* Css para parâmetros do Div */
+
+div{
+    padding: 5px 15px;
+    border-radius: 3px;     
+}
+
+/* Css para parâmetros do UL */
+
+ul{
+    display: inline-flex;
+    list-style-type: none; /* Tirar os pontos da lista */
+    padding: 0; /* deixa  os intes do centro horizontal*/
+    gap: 0px;
+    margin: 30px;
+}
+
+/* Css para parâmetros do LI */
+
+li {
+    min-width: 20px; /* Definir tamanho dos quadrados */
+    min-height: 20px;
+    border: 1px solid black;
+    list-style-type: none;
+    margin-right: -1px;
+
+    display: inline-flex; /* Organizar os itens da lista */
+    justify-content: center;
+    align-items: center;    
+}
+
+/* Css para parâmetros do Hover LI (passar o mouse por cima)*/
+
+li:hover {
+    cursor: pointer; /* Mudar o cursor do mouse */
+    background-color: #7B68EE;
+}
+
+/* Css para parâmetros do A */
+
+a {
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+/* Css para parâmetros do Hover A (passar o mouse por cima)*/
+
+a:hover {
+    background-color: #7B68EE;
+}
+
+/* Classe para configurar cor1 */
+
+.cor1 {
+    color: blueviolet;
+}
+
+/* Classe para configurar cor2 */
+
+.cor2 {
+    color: gold;
+}
+
+
+.aredondar_Canto_Dir{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    
+}
+.aredondar_Canto_Esq{
+    border-top-left-radius:3px ;
+    border-bottom-left-radius:3px ;
+}
